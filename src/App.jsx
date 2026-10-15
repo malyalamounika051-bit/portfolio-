@@ -58,7 +58,7 @@ export default function App() {
     {
       category: 'Frontend Development',
       icon: <Layers size={20} />,
-      skills: ['React', 'HTML5', 'CSS3', 'Tailwind CSS', 'Responsive UI']
+      skills: ['HTML5', 'CSS3', 'Tailwind CSS', 'Responsive UI']
     },
     {
       category: 'AI, LLMs & APIs',
@@ -84,10 +84,21 @@ export default function App() {
       status: 'Live',
       problem: 'Helping students bridge the gap between academic learning and industry job readiness.',
       description: 'An AI-powered career guidance platform delivering automated resume analysis, personalized career roadmaps, skill-gap analysis, and interactive interview preparation.',
-      contribution: 'Built responsive React frontend, integrated Gemini API and LangChain pipelines for dynamic recommendations, and connected Firebase services.',
-      techStack: ['React', 'Firebase', 'Gemini API', 'LangChain', 'Vercel'],
+      contribution: 'Built responsive frontend interface, integrated Gemini API and LangChain pipelines for dynamic recommendations, and connected Firebase services.',
+      techStack: ['Firebase', 'Gemini API', 'LangChain', 'Vercel'],
       github: 'https://github.com/malyalamounika051-bit/nexsus.career.os',
       liveDemo: 'https://frontend-alpha-one-pe8l8ucgpb.vercel.app/'
+    },
+    {
+      id: 'cogni-path',
+      name: 'CogniPath',
+      status: 'Live',
+      problem: 'Empowering neurodivergent learners with personalized cognitive learning modes and accessible task breakdown.',
+      description: 'An accessible cognitive learning and task navigation platform featuring intelligent focus cards, practice bridges, concept decoders, and structured task breakdown.',
+      contribution: 'Developed full-stack architecture with accessibility contexts, interactive dashboard features, authentication, and MongoDB/Firebase backend integrations.',
+      techStack: ['Tailwind CSS', 'Firebase', 'MongoDB', 'Node.js', 'Vercel'],
+      github: 'https://github.com/malyalamounika051-bit',
+      liveDemo: 'https://cognipath-indol.vercel.app/'
     },
     {
       id: 'supplyguard-ai',
@@ -95,19 +106,8 @@ export default function App() {
       status: 'Hackathon Project',
       problem: 'Real-time detection and mitigation of supply chain disruptions.',
       description: 'A hackathon project delivering AI-assisted supply-chain risk analysis, supplier health tracking, disruption alerts, and automated contingency recommendations.',
-      contribution: 'Collaborated on frontend dashboard views, prompt architectures, and structured API risk analysis workflows using AI-assisted tooling.',
-      techStack: ['Python', 'React', 'Gemini API', 'Data Analytics', 'Risk Models'],
-      github: 'https://github.com/malyalamounika051-bit',
-      liveDemo: null
-    },
-    {
-      id: 'isro-bah-colorization',
-      name: 'ISRO Hackathon: Infrared Satellite Colorization',
-      status: 'Hackathon Project',
-      problem: 'Interpreting low-contrast nighttime and infrared satellite imagery for earth observation.',
-      description: 'Deep learning pipeline prototype developed for the ISRO Bharatiya Antariksh Hackathon (BAH) to convert single-band/infrared satellite images into natural RGB representations.',
-      contribution: 'Team-based project: participated in idea formulation, problem evaluation, presentation workflows, and exploring colorization architectures.',
-      techStack: ['Python', 'Deep Learning / CNNs', 'Computer Vision', 'Satellite Imagery'],
+      contribution: 'Collaborated on dashboard views, prompt architectures, and structured API risk analysis workflows using AI-assisted tooling.',
+      techStack: ['Python', 'Gemini API', 'Data Analytics', 'Risk Models'],
       github: 'https://github.com/malyalamounika051-bit',
       liveDemo: null
     },
